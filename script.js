@@ -168,3 +168,5 @@ function gameQuit() {
     window.close()
     location.reload()
 }
+
+//Inna
