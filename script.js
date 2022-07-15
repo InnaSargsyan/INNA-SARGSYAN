@@ -54,7 +54,7 @@ function createBlock(e) {
     modalWindow.style.display = 'none';
     input.value = '';
     title.innerHTML = `Player X's Start`;
-    title.style.fontSize = '23px';
+    title.style.fontSize = '18px';
     controlBtn.style.display = 'initial';
 }
 
