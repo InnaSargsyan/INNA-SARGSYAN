@@ -202,13 +202,24 @@ label{
     box-sizing: border-box;
     }
     
-    
+    /* #ffd5ead6 */
     body {
     display: flex;
     justify-content: center;
     height: 100vh;
-    background: #ffd5ead6;
+    background: #5bbcde4f;
+    box-shadow: 0 -200px 100px -120px rgb(130, 230, 172)#7B68EE inset;
+    animation: background 3s infinite alternate;
+    
     }
+    
+    @keyframes background {
+        50% {
+          background:#ffbfca78;
+          box-shadow: 0 -200px 100px -100px  #644ded52 inset;
+        }
+      }
+    
     
     .container{
         margin-top: 150px;
@@ -271,7 +282,7 @@ label{
     font-size: 1.4rem;
     text-align: center;
     margin-bottom: .2rem;
-    color: #fff;
+    color: #ffdcdc;
     }
     
     
@@ -289,13 +300,21 @@ label{
     margin-bottom: 1.4rem;
     border-radius: .8rem;
     color: rgb(1, 1, 90);
-    border: .1rem solid rgb(1, 1, 90);
+    border: .1rem solid rgb(224 79 150 / 72%);
     }
     
     .modal input[type=submit]:hover {
     box-shadow: 0 -.3rem .5rem rgba(255, 255, 255, .3);
     }
     
+    .input_btn{
+        color: #ffdcdc;
+        border-color: black;
+        border-width: 1px;
+        border: 1px solid #ffdcdc;
+        border-radius: 15px;
+        padding: 3px;
+    }
     
     .block {
     display: flex;
@@ -378,7 +397,7 @@ label{
     background: linear-gradient(to bottom right, #f48cdd 0%, #e95dce 51%, #ff87be 100%);
     padding: 1.8rem 2.2rem;
     margin: 2rem;
-    border-radius: 1.2rem;
+    border-radius: 25px;
     color: #ffffffcf;
     }
     
